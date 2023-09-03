@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>心灵之旅</title>
+  <link rel="stylesheet" href="css/normalize.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            background-color: #f5f5f5;
+        }
+        
+        h1 {
+            font-size: 40px;
+            color: #333;
+        }
+    </style>
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div class="p-summary">
+  <div id="clock">- 00:00 -</div>
+  <div id="day">Wednesday</div>
+  <div id="date">Jun 13 20</div>
+</div>
+<canvas class="p-canvas-webgl" id="canvas-webgl"></canvas>
+<!-- partial -->
+<script src="js/three.min.js"></script>
+<script src="js/jquery.min.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
